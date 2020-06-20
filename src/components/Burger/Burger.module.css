@@ -15,6 +15,7 @@
   }
 }
 
+/* Media for Computer devie */
 @media (min-width: 500px) and (min-height: 400px) {
   .Burger {
     width: 350px;
@@ -29,12 +30,6 @@
   }
 }
 
-@media (min-width: 350px) and (min-height: 6000px) {
-  .Burger {
-    width: 300px;
-    height: 250px;
-  }
-}
 @media (min-width: 350px) and (min-height: 800px) {
   .Burger {
     width: 250px;
@@ -53,5 +48,13 @@
   .Burger {
     width: 250px;
     height: 200px;
+  }
+}
+
+/* Media for mobile devie */
+@media (max-width: 499px) and (min-height: 650px) {
+  .Burger {
+    width: 80%;
+    height: 335px;
   }
 }
