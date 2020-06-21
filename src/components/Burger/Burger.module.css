@@ -8,53 +8,9 @@
   font-size: 1.2rem;
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
-  .Burger {
-    width: 700px;
-    height: 500px;
-  }
-}
-
-/* Media for Computer devie */
-@media (min-width: 500px) and (min-height: 400px) {
+@media (min-width: 320px) {
   .Burger {
     width: 350px;
-    height: 300px;
-  }
-}
-
-@media (min-width: 800px) and (min-height: 350px) {
-  .Burger {
-    width: 350px;
-    height: 300px;
-  }
-}
-
-@media (min-width: 350px) and (min-height: 800px) {
-  .Burger {
-    width: 250px;
-    height: 200px;
-  }
-}
-
-@media (min-width: 500px) and (min-height: 401px) {
-  .Burger {
-    width: 350px;
-    height: 335px;
-  }
-}
-
-@media (min-width: 375px) and (min-height: 800px) {
-  .Burger {
-    width: 250px;
-    height: 200px;
-  }
-}
-
-/* Media for mobile devie */
-@media (max-width: 499px) and (min-height: 650px) {
-  .Burger {
-    width: 80%;
     height: 335px;
   }
 }
