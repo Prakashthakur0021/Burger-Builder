@@ -32,7 +32,6 @@ render() {
         <div>
             {this.state.orders.map(order => {
                 return <Order key={order.id}
-                
                 ingredients={order.ingredients}
                 price={order.price}/>
             })}
